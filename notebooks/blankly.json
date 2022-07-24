@@ -1,0 +1,23 @@
+{
+    "main_script": "bot.py",
+    "python_version": "3.10",
+    "requirements": "./requirements.txt",
+    "working_directory": ".",
+    "ignore_files": [
+        "price_caches",
+        ".git",
+        ".idea",
+        ".vscode"
+    ],
+    "backtest_args": {
+        "to": "1y"
+    },
+    "screener": {
+        "schedule": "30 14 * * 1-5"
+    },
+    "type": "strategy",
+    "model_id": "k2CPFsMNraSj1JuVePdo",
+    "project_id": "bXzfGfxQVCZ3CMfBbjXNxaowQ1o1",
+    "api_key": "bXzfGfxQVCZ3CMfBbjXNxaowQ1o1",
+    "api_pass": "257dc023-75bc-45c1-97be-01ec733df6df"
+}

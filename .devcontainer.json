@@ -1,0 +1,10 @@
+{
+    "name": "JupyterLab & blankly",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "jupyterlab",
+    "workspaceFolder": "/host_folder",
+    "extensions": [
+        "ms-python.python",
+        "VisualStudioExptTeam.vscodeintellicode"
+    ]
+}
