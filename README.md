@@ -8,11 +8,14 @@ You need docker! Check out https://docs.docker.com/get-docker/ on information on
 ## for jupyterlab using docker compose, __**recommended**__
 run the following commands:
 ```
-git clone https://github.com/TimIntegration/dockerized-ds-env.git projName
+git clone https://github.com/TimIntegration/blankly_algo_container.git projName
 cd projName
 make compose
 cd /host_folder/notebooks
 blankly init
+```
+select yes to overwrite/update some settings files in the folder, then run
+```
 python golden_cross_bot.py
 ```
 jupyter lab can be accessed via http://localhost:8899
@@ -21,7 +24,7 @@ jupyter lab can be accessed via http://localhost:8899
 ## for vscode
 run the following commands:
 ```
-git clone https://github.com/TimIntegration/dockerized-ds-env.git projName
+git clone https://github.com/TimIntegration/blankly_algo_container.git projName
 cd projName
 code .
 ```
