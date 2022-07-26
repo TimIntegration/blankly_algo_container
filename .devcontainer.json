@@ -1,7 +1,7 @@
 {
     "name": "JupyterLab & blankly",
     "dockerComposeFile": "docker-compose.yml",
-    "service": "jupyterlab",
+    "service": "jupyterlab_service",
     "workspaceFolder": "/host_folder",
     "extensions": [
         "ms-python.python",
