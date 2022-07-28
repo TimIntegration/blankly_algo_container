@@ -1,7 +1,8 @@
 compose:
 	export NB_USER=\$${USER}
 	docker compose up -d && echo "use http://localhost:8899 or vscode connect to remote container, 'docker compose down' to end"
-	docker compose exec -it jupyterlab-service zsh
+	# docker compose exec -it jupyterlab-service zsh
+	docker exec -it cont-jupyter-lab zsh
 
 setup:
 	docker build -f jupyter.Dockerfile -t jupyter-lab-image .
