@@ -30,6 +30,7 @@ code .
 ```
 Inside Visual Studio Code:
  - click button on the bottom right to reopen folder in Dev Container
+ - may need to manually use Python: Select Interpreter to /opt/conda/bin/python
 
 
 ## for standalone container
