@@ -29,7 +29,7 @@ cd projName
 code .
 ```
 Inside Visual Studio Code:
- - click button on the bottom right to reopen folder in Dev Container
+ - click button on the bottom right, Remote Containers: Reopen in Container
  - may need to manually use Python: Select Interpreter to /opt/conda/bin/python
 
 
@@ -44,6 +44,10 @@ Step - 2: Start the coding environment or jupyter lab
 make run
 ```
 
+## If there are issues, redo the service with the command:
+```
+make clean
+```
 
 ### Optional
 If you have NVIDIA drivers installed, you need the NVIDIA runtime to use GPUs in the development environment.
