@@ -16,6 +16,6 @@ run:
 
 clean:
 	docker compose down
-	# docker container stop cont-jupyter-lab
-	# docker container rm cont-jupyter-lab
+	docker container stop cont-jupyter-lab
+	docker container rm cont-jupyter-lab
 	# docker rmi jupyter-lab-image  ## to remove image
